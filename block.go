@@ -6,7 +6,7 @@ type Block struct {
 	Hash string `json:"hash"`
 
 	// The number of confirmations
-	Confirmations uint64 `json:"confirmations"`
+	Confirmations int64 `json:"confirmations"`
 
 	// The block size
 	Size uint64 `json:"size"`
