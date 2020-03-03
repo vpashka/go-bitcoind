@@ -30,7 +30,7 @@ type MiningInfo struct {
 	Generate bool `json:"generate"`
 
 	// The network hashrate
-	NetworkHashps uint64 `json:"networkhashps"`
+	NetworkHashps float64 `json:"networkhashps"`
 
 	// Node hashrate
 	HashesPersec uint64 `json:"hashespersec"`
